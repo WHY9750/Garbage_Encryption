@@ -23,7 +23,7 @@ final_listRMV_4 = []
 encry = []
 crap = []
 finally222 = []
-finalNIGA = ""
+finalMAN = ""
 
 # This does multiplication and addition to the ASCII number.
 for i in raw_text:
@@ -65,7 +65,7 @@ if len(final_3digi) >= 4:
     print(final_3digi)
 
 else:
-    print("Your Mum GAE!")
+    print("Your Mum is a beautiful womyn!")
 
 # This creates a stream of number with no comma or space...
 for iii in final_3digi:
@@ -101,6 +101,8 @@ for u1 in final_listRMV:
             count += 1
 
 print(abc122)
+
+str_err = "Your dad is a wonderful humyn bean"
 
 if len(raw_text) >= 4:  # We have to ensure that the length of the final_listRMV is at least 11 because the highest index is 9 which will trigger out of range at line 112 (9 + 1) when the list is insufficiently long.
     if len(abc122) >= 3:
@@ -152,10 +154,10 @@ if len(raw_text) >= 4:  # We have to ensure that the length of the final_listRMV
         print(final_listRMV)
 
     else:
-        print("Your Dad Lesbian!")
+        print(str_err)
 
 else:
-    print("Your Dad Lesbian!")
+    print(str_err)
 
 # This is the hint to the 3 distinct number index which we do the swapping and to the original number of characters in the raw text. The first number between the 2 '@' indicates the number of digit of the number of characters in the raw string, so the following numbers after the second '@' are the total number of digit. Then the last 3 character is the index which the swapping occurs and that the index is zero at the number indicating the number of characters in the raw text!
 final_listRMV_2 = lent + final_listRMV + abc122
@@ -219,7 +221,7 @@ finally222 += final_listRMV_3
 
 print(finally222)
 
-for nga in finally222:
-    finalNIGA += str(nga)
+for char in finally222:
+    finalMAN += str(char)
 
-print(f"Final Encrypted Text: {finalNIGA}")
+print(f"Final Encrypted Text: {finalMAN}")
